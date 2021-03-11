@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My Web Page</title>
+</head>
+	<h1>My First Website</h1>
+	<h2>My Favorite Fruit</h2>
+	<u1><!--<ul>无序列表 有序列表的标签为<ol>-->
+		<li>apples</li><!--<li> 标签用于定义列表项目。可用在有序列表 (<ol>) 和无序列表 (<ul>) 中-->
+		<li>oranges</li>
+		<li>pineapples</li>
+	</u1>
+	
+	<ol>
+		<li>apples</li>
+		<li>oranges</li>
+		<li>pineapples</li>
+	</ol>
+	<table border="1" cellpadding="10" cellspacing="0">
+	<!--<table> 标签定义 HTML 表格。简单的 HTML 表格由 table 元素以及一个或多个 tr、th 或 td 元素组成。tr 元素定义表格行，th 元素定义表头，td 元素定义表格单元。-->
+	<!--上面"数值"单位为像素 border 边框（数值变大会自动赋予阴影效果）；cellpadding 格边距（即里面的内容距离格子边框上下左右的距离）；cellspacing 格间距（即格子与格子之间的距离）-->
+		<tr><!--定义了一行 这一行里面有：（</tr>标签前面所有的东西）-->
+			<th></th><!--定义了一个空的表头单元格-->
+			<th>Month</th>
+			<th>Rent</th>
+			<th colspan="2">Utilities</th><!--colspan设置单元格可横跨的列数。这里的Utilities横跨了2列-->
+			<th>Gorceries</th>
+			<th>Eating Out</th>
+			<th>Entertainment</th>
+		</tr>
+		<!--th 元素内部的文本通常会呈现为居中的粗体文本，而 td 元素内的文本通常是左对齐的普通文本。（但其实可以根据需要设置的字体来选择是th还是td 不必局限于表头跟表格单元）-->
+		<tr>      
+			<td rowspan="3">Fall</td><!-- rowspan规定单元格可横跨的行数 这里的Fall横跨了3行-->
+			<td>June</td>
+			<td>$1500</td>
+			<td>$100</td><!-- The $100 and $50 cells will be under the Utilities cell--><td>$50</td>
+			<td>$350</td>
+			<td>$100</td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<td>July</td>
+			<td>$1500</td>
+			<td>$100</td>
+			<td>$50</td>
+			<td>$350</td>
+			<td>$100</td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<td>August</td>
+			<td>$1500</td>
+			<td>$100</td>
+			<td>$50</td>
+			<td>$350</td>
+			<td>$100</td>
+			<td>$50</td>
+		</tr>
+	</table>
+	
+	
+<body>
+</body>
+</html>

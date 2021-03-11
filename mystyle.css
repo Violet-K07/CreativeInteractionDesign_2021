@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body {/*CSS 元素选择器：元素选择器根据元素名称来选择 HTML 元素。*/
+	padding-left: 11em;/*设置左边的内边距*/
+	font-family: Georgia, "Times New Roman",Times, serif;/*设置字体 font-family 属性应包含多个字体名称作为“后备”系统，以确保浏览器/操作系统之间的最大兼容性。请以您需要的字体开始，并以通用系列结束（如果没有其他可用字体，则让浏览器选择通用系列中的相似字体）。字体名称应以逗号分隔。如上代码。这里的serif为衬线字体的意思*/
+    color: violet;/*设置文本的颜色*/
+    background-color: #d8da3d /*设置背景的颜色*/}
+	/**/	 
+	ul.navbar {/*(.)为类选择器 navbar为类名（类名不能以数字开头）*/
+	list-style-type: none;/*list-style-type 属性指定列表项标记的类型。而代码中的list-style-type:none 用于删除标记/项目符号。*/
+    padding: 0;/*padding 属性用于在任何定义的边界内的元素内容周围生成空间。即内边距 最多可以设置四个数值 默认的顺序为“上 右 下 左” 三个值时分别表示“上 左右 下” 两个值是分别表示“上下 左右”一个值表示四个外边距都是这个值 这里的0表示上下左右四个外边距都是0*/
+    margin: 0;/*margin 属性用于在任何定义的边框之外，为元素周围创建空间 即外边距 最多可以设置四个数值 默认的顺序为“上 右 下 左” 三个值时分别表示“上 左右 下” 两个值是分别表示“上下 左右”一个值表示四个外边距都是这个值 这里的0表示上下左右四个外边距都是0 设置auto可以使元素在其容器内水平居中*/
+    position: absolute;/*position: absolute; 的元素相对于最近的定位祖先元素进行定位（而不是相对于视口定位，如 fixed）。然而，如果绝对定位的元素没有祖先，它将使用文档主体（body），并随页面滚动一起移动。*/
+    top: 2em;
+    left: 1em;
+    width: 9em }
+	h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+	/**/
+	ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }/*text-decoration用于从链接中删除下划线*/
+  a:link {/*定义超链接被访问前的颜色*/
+    color: blue }
+  a:visited {/*定义超链接访问后的颜色*/
+    color: purple }

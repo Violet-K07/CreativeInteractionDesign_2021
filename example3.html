@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>My first styled page</title>
+	<link rel="stylesheet" href="mystyle.css"><!--外部css-->
+	<!--内部css
+	<style type="text/css">
+	body {
+	padding-left: 11em;/**/
+	font-family: Georgia, "Times New Roman",Times, serif;
+    color: purple;
+    background-color: #d8da3d }
+	/**/	 
+	ul.navbar {
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;/**/
+    top: 2em;
+    left: 1em;
+    width: 9em }
+	h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+	/**/
+	ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {/*定义超链接被访问前的颜色*/
+    color: blue }
+  a:visited {/*定义超链接访问后的颜色*/
+    color: purple }
+	</style>
+-->
+</head>
+
+<body>
+
+<!-- 导航页 -->
+<ul class="navbar">
+  <li><a href="example.html">Home page</a>
+  <li><a href="musings.html">Musings</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul>
+
+<!-- 主要内容 -->
+<h1>My first styled page</h1>
+
+<p>Welcome to my styled page!
+
+<p>It lacks images, but at least it has style.
+And it has links, even if they don't go
+anywhere&hellip;<!--&hellip;是一个HTML实体,表示的就是省略号,注意分号不可以省略。-->
+
+<p>There should be more here, but I don't know
+what yet.
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Made 5 April 2004<br>
+  by myself.</address><!--<address> 标签定义文档或文章的作者/拥有者的联系信息。
+如果 <address> 元素位于 <body> 元素内，则它表示文档联系信息。
+如果 <address> 元素位于 <article> 元素内，则它表示文章的联系信息。
+<address> 元素中的文本通常呈现为斜体。大多数浏览器会在 address 元素前后添加折行。-->
+
+</body>
+</html>
