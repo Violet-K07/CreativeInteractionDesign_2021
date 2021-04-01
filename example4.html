@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML TEST</title>
+	<style>
+		/*h3 {text-align: left;} 
+		p, h1, h2 {text-align: center;}元素选择器*/
+		.tst1{text-align: center;}/*类选择器*/
+		#tst2 {text-align: center;} 
+		h1#tst2 {color: red;}/*id选择器*/
+		* {color: Violet;}/*通用选择器*/
+		div strong {color: blueviolet;}/*后代选择器*/
+		a:link {color: green}
+		a:visited {color: purple}
+		p:hover {color: red;font-size:25px}/*伪选择器*/
+	</style>
+</head>
+	<h1>The h1 text-align set to center.</h1> 
+	<h2>The h2 text-align set to center.</h2> 
+	<h3>The h3 text-align set to left.</h3> 
+	<p>The p text-align set to center.</p>
+	<br>
+	<h1 class="tst1">Style applies to this element.</h1> 
+	<h2>The is h2 element.</h2> 
+	<h3>The is h3 element.</h3> 
+	<p class="tst1">Style applies to this element.</p>
+	<br>
+	<h1 id="tst2">Both style declarations apply.</h1> 
+	<h2 id="tst2">Only one style declaration apply.</h2><!--语法上来讲其实是不规范的 这里也警告了 但是网页me'you-->
+	<br>
+	<div><p>The red style <strong>has been applied to this element.</strong></p></div> 
+	<p>The red style <strong>has not been applied to this element.</strong></p>
+	<br>
+	<a href="http://by.cuc.edu.cn/" target="_blank">Visit CUC Website</a>
+	<p>The red style is applied when the mouse cursor hovers over this element.</p>
+	<br>
+<body>
+</body>
+</html>
